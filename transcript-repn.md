@@ -1,6 +1,6 @@
-When we first started working on Hyperaudio back in 2012, at the time [Interactive Transcripts](https://en.wikipedia.org/wiki/Interactive_transcripts) were relatively rare - that's when we started figure out how to represent timed-transcripts in a suitable manner, one that would work for both human and computer. I’ve been wanting to write this rather nerdy blogpost about that for some time.
+When we first started working on Hyperaudio back in 2011, at the time [Interactive Transcripts](https://en.wikipedia.org/wiki/Interactive_transcripts) were relatively rare - that's when we started figure out how to represent timed-transcripts in a suitable manner, one that would work for both human and computer. I’ve been wanting to write this rather nerdy blogpost about that for some time.
 
-In 2012 transcription services were few and far between, but one company that stood out from the crowd was [3Play Media](https://www.3playmedia.com/)- joyfully, submitting spoken-word audio to 3Play Media would result in not only the text representation but also structured data in the form of JSON. This JSON contained timings for each word transcribed, it's at that time we started thinking about how to represent and store Interactive Transcripts.
+In 2011 transcription services were few and far between, but one company that stood out from the crowd was [3Play Media](https://www.3playmedia.com/)- joyfully, submitting spoken-word audio to 3Play Media would result in not only the text representation but also structured data in the form of JSON. This JSON contained timings for each word transcribed, it's at that time we started thinking about how to represent and store Interactive Transcripts.
 
 But let's back up a bit. What is an Interactive Transcript and why do they matter? There are various types of Interactive Transcript, we were interested in word-level timings, chiefly because we wanted to allow precise selection of words or phrases, so that people could, from the transcript, share and remix content.
 
@@ -13,6 +13,10 @@ Generally the advantages of including an Interactive Transcript with your media 
 - Discoverablity - as long as you create your transcript statically on the server search engines will find it when crawling your page, making your audio or video more discoverable.
 
 - Shareability - transcripts make it as easy to share the spoken word as it is the written word.
+
+It's 2013 - I'm driving up from Providence, Rhode Island with Dan Schultz to the MIT Media Conference in Cambridge, Massachusetts. Hyperaud.io has been funded by the Knight Foundation and we're starting to think seriously about what we're going to build. As usual we talk about how we're going to represent the data. We've been creating Hyperaudio-like applications for a couple of years now, working with media organisations as diverse as SoundCloud, Al Jazeera, WNYC and Danish Radio. We've come around to representing Interactive Transcripts as HTML and have dubbed them Hypertranscripts.
+
+
 
 
 
