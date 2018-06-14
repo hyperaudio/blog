@@ -1,3 +1,3 @@
-When we first started working on Hyperaudio back in 2012, interactive transcripts were relatively rare - we needed to figure how to represent them, for both human and computer. I’ve been wanting to write this rather nerdy blogpost for some time - this is our story.
+When we first started working on Hyperaudio back in 2012, interactive transcripts were relatively rare - we needed to figure out how to represent them in a suitable manner for both human and computer. I’ve been wanting to write this rather nerdy blogpost for some time - this is our story.
 
-At the time transcription services were few and far between, but one company that stood out from the crowd was [3Play Media](https://www.3playmedia.com/)
+At the time transcription services were few and far between, but one company that stood out from the crowd was [3Play Media](https://www.3playmedia.com/)- joyfully submitting spoken-word audio to 3Play Media would result in not only the text representation but also structured data in the form of JSON. This JSON contained timings for each word transcribed.
