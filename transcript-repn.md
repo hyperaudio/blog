@@ -12,7 +12,7 @@ Generally the advantages of including an Interactive Transcript with your media 
 
 - Discoverablity - as long as you create your transcript statically on the server, delivering it as part of your page (rather than creating it clientside) search engines will find it when crawling your page, making your audio or video more discoverable.
 
-- Shareability - transcripts make it as easy to share the spoken word as the written word.
+- Shareability - transcripts make it as easy to share the spoken word as it is the written word.
 
 
 
